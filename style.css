@@ -12,13 +12,19 @@
     box-sizing: border-box;
 }
 
-body{
+body,footer{
     background-color: hsl(0, 0%, 8%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 .container{
